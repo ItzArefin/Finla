@@ -1,109 +1,86 @@
-# ðŸŽ¨ Finla â€” YAML Small Caps Formatter  
-*Aesthetic Minecraft Language File Formatter*
+# 🎨 Finla - YAML Small Caps Formatter
+*Make your Minecraft configs look stunning! ✨*
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square)  
-![Status](https://img.shields.io/badge/Project%20Status-Active-brightgreen?style=flat-square)  
-![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
-
----
-
-## âœ¨ Overview
-
-**Finla** is a Python-powered tool that beautifully transforms selected text in `.yml` files into **small caps Unicode**, perfect for **Minecraft plugin language files** and other visual YAML content.
-
-Made for **developers who love aesthetic vibes and clean configs.**
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 
 ---
 
-## ðŸš€ Features
+## 🌟 What is Finla?
 
-- ðŸ”  **Small Caps Conversion**  
-  Transform regular letters into stylish **small caps Unicode** for visual appeal.
-
-- ðŸŽ¨ **Color Code Compatibility**  
-  Fully supports Minecraft-style color codes like `&a`, `&b`, `&f` â€” colors remain intact.
-
-- ðŸ§  **Smart Text Detection**  
-  Finla intelligently detects and converts:
-  - âœ… **Bracketed Words**  
-    `&a[Example]` â†’ `&a[á´‡xá´€á´á´˜ÊŸá´‡]`
-  - âœ… **Prefixes & Labels**  
-    `&eName:` â†’ `&eÉ´á´€á´á´‡:`
-  - âœ… **Regular Colored Words**  
-    `&cServer` â†’ `&csá´‡Ê€á´ á´‡Ê€`
-  - âœ… **Domains & IPs**  
-    `play.example.com` â†’ `á´˜ÊŸá´€Ê.á´‡xá´€á´á´˜ÊŸá´‡.á´„á´á´`
-
-- ðŸŒŸ **Aesthetic-First Approach**  
-  Built for developers who care about the look of their Minecraft configurations.
-
-- ðŸŽ‰ **Upcoming Features**  
-  Emoji support and more customization options coming soon!
+**Finla** transforms your YAML text into **ᴄᴏᴏʟ sᴍᴀʟʟ ᴄᴀᴘs** for Minecraft server configs and plugin language files.
 
 ---
 
-## ðŸ“‚ Getting Started
+## ✨ Features
 
-### Prerequisites
-- Python 3.8 or higher
+🔤 **Smart Small Caps Conversion** - Converts text to Unicode small caps  
+🎨 **Minecraft Color Code Support** - Works with `&a`, `&c`, `&e` and all color codes  
+🧠 **Intelligent Detection** - Handles brackets, labels, domains, and regular text  
+⚡ **Fast Processing** - Transform entire YAML files in seconds
 
-### Installation
-Clone the repository:
+---
+
+## 🚀 Quick Start
+
+### Requirements
+- Python 3.8+
+
+### Installation & Usage
 ```bash
+# Clone and navigate
 git clone https://github.com/ItzArefin/finla.git
 cd finla
-```
 
-### Usage
-1. Place your YAML file in the project directory and name it `input.yml`.
-2. Run the script:
-   ```bash
-   python Finla.py
-   ```
-3. The formatted YAML will be saved as `output.yml`.
+# Add your YAML file as 'input.yml'
+# Run the formatter
+python Finla.py
+
+# Get your formatted file as 'output.yml'
+```
 
 ---
 
-## ðŸ“¸ Example
+## 📖 Examples
 
-**Before:**
+### Before:
 ```yaml
-- '&a[Server]'
-- '&cServer Name:'
-- '&eplay.example.com'
+messages:
+  welcome: '&a[Welcome] &fHello player!'
+  server_name: '&cAwesome Server'
+  website: '&eplay.server.com'
 ```
 
-**After:**
+### After:
 ```yaml
-- '&a[êœ±á´‡Ê€á´ á´‡Ê€]'
-- '&cêœ±á´‡Ê€á´ á´‡Ê€ É´á´€á´á´‡:'
-- '&eá´˜ÊŸá´€Ê.á´‡xá´€á´á´˜ÊŸá´‡.á´„á´á´'
+messages:
+  welcome: '&a[ᴡᴇʟᴄᴏᴍᴇ] &fʜᴇʟʟᴏ ᴘʟᴀʏᴇʀ!'
+  server_name: '&cᴀᴡᴇsᴏᴍᴇ sᴇʀᴠᴇʀ'
+  website: '&eᴘʟᴀʏ.sᴇʀᴠᴇʀ.ᴄᴏᴍ'
 ```
 
 ---
 
-## ðŸ“Œ Roadmap
-- [x] Small caps formatting
-- [ ] Emoji support
-- [ ] Customizable style options
-- [ ] GUI version (planned)
+## 🗺️ Roadmap
+
+- [x] Small caps conversion
+- [x] Color code support
+- [ ] Custom emoji integration
+- [ ] GUI application
+- [ ] Multiple formatting styles
 
 ---
 
-## ðŸ¤ Contributing
+## 📜 License
 
-Contributions, suggestions, and issues are welcome!  
-Please feel free to open a pull request or start a discussion.
-
----
-
-## ðŸ“„ License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+MIT License - free to use in your projects!
 
 ---
 
-## ðŸ’¬ Contact
+## 💬 Connect
 
-Made with â¤ï¸ for Minecraft developers.  
-GitHub: [ItzArefin](https://github.com/ItzArefin)
+Made with ❤️ for Minecraft developers  
+**GitHub**: [ItzArefin](https://github.com/ItzArefin)
+
+⭐ **Star us** if Finla helped your server look amazing!
