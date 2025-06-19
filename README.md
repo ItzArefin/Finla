@@ -1,4 +1,4 @@
-# 🎨 Finla - YAML Small Caps Formatter
+# 🎨 Finla - YAML Formatter
 *Make your Minecraft configs look stunning! ✨*
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square)
@@ -9,7 +9,7 @@
 
 ## 🌟 What is Finla?
 
-**Finla** transforms your YAML text into **ᴄᴏᴏʟ sᴍᴀʟʟ ᴄᴀᴘs** for Minecraft server configs and plugin language files.
+**Finla** transforms your YAML text into **sᴍᴀʟʟ ᴄᴀᴘs** for Minecraft server configs and plugin language files.
 
 ---
 
@@ -66,9 +66,7 @@ messages:
 
 - [x] Small caps conversion
 - [x] Color code support
-- [ ] Custom emoji integration
-- [ ] GUI application
-- [ ] Multiple formatting styles
+- [ ] Auto Emoji Placement
 
 ---
 
